@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>1394392-background-images-for-login-page.jpg</file>
+    <file>OS-X-Wallpaper.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+  <qresource prefix="newPrefix">
+    <file>images.jpeg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>images1.jpeg</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>login-page-background-red-i11.jpg</file>
+  </qresource>
+</RCC>

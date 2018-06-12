@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>1839</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>20</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>तक्रारदाराचा तपशील </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>तक्रारदाराचा तपशील </string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>741</width>
+     <height>1441</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>150</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>तारीख*</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>वेळ*</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>या अधिकाऱ्यासाठी नोंद </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>150</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>200</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>250</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>निवडा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Item</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>621</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>                                                                          तक्रारदारचा तपशील माहिती </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>350</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>युआयडी</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>510</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>नाते प्रकार</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>480</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>शेवटचे नाव/आडनाव</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>430</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>मधले नाव</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>390</y>
+     <width>61</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>प्रथम नाव*</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>590</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>लिंग </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>670</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>जन्मतारीख </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>700</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>जन्मवर्ष </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>550</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>नातेवाईकाचे नाव</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>620</y>
+     <width>621</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>                                                                                वय पॅनल </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>920</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ई-मेल-आयडी</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>890</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>दूरध्वनी क्रमांक </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>850</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>मोबाईल नं </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>810</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>वैवाहिक स्थिती </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>730</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>वय(वर्ष/महिना) </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>990</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>घर नं </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_22">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>1030</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>रस्त्याचे नाव</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_23">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>1150</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>तहसिल/गट/मंडळ </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_24">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>1110</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>गाव/शहर </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_25">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>1070</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>वसाहत/परिसर/ क्षेत्र</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>1270</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>देश *</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>1310</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>राज्य *</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>1390</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>  	
+पोलीस ठाणे	</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>1350</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>जिल्हा *</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_30">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>1450</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>पिन कोड</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_31">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>960</y>
+     <width>621</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>                                                                               कायमचा पत्ता </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>340</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>390</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_5">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>430</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_6">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>470</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>510</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>पालक </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>भाऊ </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>बहीण </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>इतर </string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_7">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>540</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_5">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>590</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>निवडा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>स्तरी </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>पुरुष </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>इतर </string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>640</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_9">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>680</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_10">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>840</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_11">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>760</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_12">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>720</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_13">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>880</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_14">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>920</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_6">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>810</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>निवडा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>विवाहित </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>अविवाहित </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_15">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>980</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_16">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1020</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_17">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1060</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_18">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1100</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_19">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1140</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_32">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>1200</y>
+     <width>211</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>सध्याचा पत्ता कायमच्या पत्याप्रमाणे आहे *</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>1190</y>
+     <width>117</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>होय </string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>1220</y>
+     <width>117</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>नाही </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1260</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>भारत </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Item</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_7">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1350</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>निवडा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>अकोला </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>अमरावती </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>उस्मानाबाद </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>औरंगाबाद </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>कोल्हापुर </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>गडचिरोली </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>गोंदिया </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>चंद्रपुर</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>जळगाव </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>जलना </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>धुले </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>नंदुरबार </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>नागपुर </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>नाशिक </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>नांदेड़ </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ठाणे </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>परभणी </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>पुणे </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>बिड </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>बुलढाणा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>भंडारा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>मुंबई जिल्हा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>मुंबई उपनगर </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>यवतमाल </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>रायगढ़ </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>लातूर </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>वर्धा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>वाशिम </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>सांगली </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>सातारा  </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>सोलापुर </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>हिंगोली </string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1400</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>निवडा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>New Item</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_20">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1450</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>1300</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>निवडा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>आंध्र प्रदेश </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>अरुणाचल प्रदेश </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>बिहार </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>छत्तीसगड </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>गोआ </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>गुजरात </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>हरियाणा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>हिमाचल प्रदेश </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>जम्मू काश्मीर </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>झारखंड </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>कर्नाटक </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>केरळ </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>मध्यप्रदेश </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>महाराष्ट्र </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>मणिपूर </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>मेघालय </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>मेघालय </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>नागालँड </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>उडीसा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>पंजाब </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>राजस्थान</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>सिक्कम </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>तामिळनाडू </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>तेलंगणा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>तिरपुरा </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>उत्तर प्रदेश </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>उत्तरांचल </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>पश्चिम बंगाल </string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>960</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>जतन करा </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>1510</y>
+     <width>99</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>रिक्त करा </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>OS-X-Wallpaper.jpg</file>
+    <file>Login-Page-Background.jpg</file>
+  </qresource>
+</RCC>
